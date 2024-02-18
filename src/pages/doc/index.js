@@ -15,7 +15,7 @@ export default function Doc() {
       alert('Need to authenticate');
       router.push("/login");
     }
-  }, []);
+  }, [router]);
 
   const toggleFichierOptions = () => {
     setFichierOptionsVisible(!fichierOptionsVisible);
