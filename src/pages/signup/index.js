@@ -61,7 +61,7 @@ const handleError = () => {
         }, 900);
         setTimeout(() => {
           router.push("/login");
-        }, 1400);
+        }, 2000);
       }else{
         setTimeout(() => {
           handleError
