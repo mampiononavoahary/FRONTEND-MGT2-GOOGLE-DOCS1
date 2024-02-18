@@ -82,7 +82,7 @@ const handleError = () => {
                 <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500 p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
                   <FaFacebookF className="text-sm" />
                 </a>
-                <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500text-black p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
+                <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500 p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
                   <FaLinkedinIn className="text-sm" />
                 </a>
                 <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500 p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
