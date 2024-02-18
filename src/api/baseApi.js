@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-const baseURL = 'https://backend-mgt2-googledocs.up.railway.app';
+const baseURL = 'http://localhost:8080';
 
 const setTokenInCookie = (token) => {
     Cookies.set('token', token, { expires: 24 });

@@ -22,10 +22,10 @@ export default function Login() {
   };
 
   const onSubmit = async (data) => {
-    localStorage.setItem('User', JSON.stringify(data));
     try {
       const res = await apiUser.login(data);
       if (token.isJWT(res)) {
+        localStorage.setItem('User', JSON.stringify(data));
      // setBg("bg-white    drop-shadow-[0_25px_25px_rgba(0,255,0,0.5)]");
         setTimeout(() => {
           router.push('/home');
