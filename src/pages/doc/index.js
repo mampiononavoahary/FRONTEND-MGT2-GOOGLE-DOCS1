@@ -11,7 +11,7 @@ export default function Doc() {
   const router = useRouter();
 
   useEffect(() => {
-    if (!Cookies.get('token')) {
+    if (!Cookies.get('token') && !localStorage.getItem("User")) {
       alert('Need to authenticate');
       router.push("/login");
     }

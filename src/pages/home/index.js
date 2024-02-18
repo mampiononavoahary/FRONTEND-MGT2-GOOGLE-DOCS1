@@ -17,7 +17,7 @@ const Accueil = () => {
   useEffect(() => {
     apiDocs.getAllDocs()
       .then((res) => {
-          if (!Cookies.get('token')) {
+          if (!Cookies.get('token') && !localStorage.getItem("User")) {
             alert('Need to authenticate');
             router.push("/login");
           }
