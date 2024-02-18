@@ -22,6 +22,7 @@ export default function Login() {
   };
 
   const onSubmit = async (data) => {
+    localStorage.setItem('User', JSON.stringify(data));
     try {
       const res = await apiUser.login(data);
       if (token.isJWT(res)) {
