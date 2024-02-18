@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars , faFolder, faShare} from '@fortawesome/free-solid-svg-icons';
-import DocEditor from "../../components/docs/DocEditor";
+import DocEditor from "../../components/docs/DocEditor.tsx";
 import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
 
