@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-const baseURL = 'http://localhost:8080';
+const baseURL = 'https://backend-mgt2-1-production.up.railway.app';
 
 const setTokenInCookie = (token) => {
     Cookies.set('token', token, { expires: 24 });
