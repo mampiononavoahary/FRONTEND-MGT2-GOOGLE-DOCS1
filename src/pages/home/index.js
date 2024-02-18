@@ -30,6 +30,7 @@ const Accueil = () => {
 
   const handleLogout = () => {
     Cookies.remove('token');
+    localStorage.removeItem("User");
     router.push("/login");
   };
 
