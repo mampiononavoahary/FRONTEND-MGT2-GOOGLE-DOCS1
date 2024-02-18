@@ -30,6 +30,7 @@ const Accueil = () => {
 
   const handleLogout = () => {
     Cookies.remove('token');
+    localStorage.removeItem("User");
     router.push("/login");
   };
 
@@ -38,7 +39,7 @@ const Accueil = () => {
   }
   
   return (
-    <section className="container-fluid bg-white h-screen">
+    <section className="container-fluid bg-white">
       <header className="sticky top-0 flex items-center justify-between px-4 shadow-md z-10 bg-white">
         <div className="flex items-center">
           <button className="h-20 w-20 border-0">
@@ -79,7 +80,7 @@ const Accueil = () => {
         </div>
       </header>
 
-      <section>
+      <section className="container-fluid">
         <div className="max-w-4xl mx-auto">
           <div className="flex justify-center gap-20 mt-10">
             <div className=" mb-4" onClick={() => NewDoc()}>

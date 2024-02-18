@@ -26,7 +26,7 @@ export default function Doc() {
   }
 
   return (
-    <div>
+    <div className='container-fluid bg-white'>
       <header className='flex justify-between items-center p-3 pb-1 bg-white'>
         <span className='cursor-pointer' onClick={() => goBack()}>
           <FontAwesomeIcon icon={faFolder} size="2x" style={{ color: 'blue' }} />
