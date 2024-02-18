@@ -79,13 +79,13 @@ const handleError = () => {
               <h2 className="text-3xl font-bold text-blue-500 mb-2">Sign up for an Account</h2>
               <div className="border-2 w-10 border-blue-500 inline-block mb-2"></div>
               <div className="flex justify-center my-2">
-                <a href="#" className="border-2 border-gray-500 rounded-full p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
+                <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500 p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
                   <FaFacebookF className="text-sm" />
                 </a>
-                <a href="#" className="border-2 border-gray-500 rounded-full p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
+                <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500text-black p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
                   <FaLinkedinIn className="text-sm" />
                 </a>
-                <a href="#" className="border-2 border-gray-500 rounded-full p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
+                <a href="#" className="border-2 border-blue-500 rounded-full text-blue-500 p-3 mx-1 transition duration-300 ease-in-out transform hover:scale-110">
                   <FaGoogle className="text-sm" />
                 </a>
               </div>
